@@ -1,0 +1,19 @@
+{
+    "name": "lsv/platzi",
+    "description": "Proyecto Basico",
+    "authors": [
+        {
+            "name": "Andres",
+            "email": "andresmolinaresb@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        },
+        "files": [
+            "app/helpers.php"
+        ]
+    }
+}
